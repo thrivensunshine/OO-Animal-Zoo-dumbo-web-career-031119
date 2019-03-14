@@ -49,6 +49,7 @@ def self.find_by_location
   new_arr = ZOO.select do |elem|
     zoo.location == location
   end
+  new_arr
 end
 
 end
